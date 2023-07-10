@@ -1,4 +1,5 @@
 import Image from "next/image";
+import Link from "next/link";
 
 export default function Home() {
   return (
@@ -20,9 +21,10 @@ export default function Home() {
           Schedule A Virtual Coffee Chat
         </a>
       </section>
-      <section>
-        <h2>Latest Blog Posts</h2>
-        <p>Coming soon...</p>
+      <section className="text-center">
+        <Link href="/blog" className="underline">
+          Latest Posts From Me
+        </Link>
       </section>
     </main>
   );

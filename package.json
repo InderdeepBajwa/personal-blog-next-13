@@ -9,6 +9,7 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@portabletext/react": "^3.0.4",
     "@sanity/image-url": "^1.0.2",
     "@sanity/vision": "^3.14.1",
     "@types/node": "20.4.1",
@@ -25,5 +26,8 @@
     "sanity": "^3.14.1",
     "tailwindcss": "3.3.2",
     "typescript": "5.1.6"
+  },
+  "devDependencies": {
+    "@tailwindcss/typography": "^0.5.9"
   }
 }
