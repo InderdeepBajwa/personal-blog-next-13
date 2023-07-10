@@ -3,7 +3,7 @@ import Link from "next/link";
 
 export default function Home() {
   return (
-    <main className="max-w-sm mx-auto">
+    <main className="max-w-sm md:max-w-lg lg:max-w-xl xl:max-w-4xl 2xl:max-w-7xl mx-auto">
       <section className="space-y-16 my-20">
         <h1 className="font-bold text-2xl">
           Software Engineer | Multi-Disciplinary Specialist | Startup Enthusiast

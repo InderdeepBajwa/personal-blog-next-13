@@ -10,7 +10,7 @@ const builder = imageUrlBuilder(client);
 
 export default function Post({ post }: { post: SanityDocument }) {
   return (
-    <main className="max-w-sm mx-auto my-20 container prose prose-lg prose-headings:text-white text-white">
+    <main className="max-w-sm md:max-w-lg lg:max-w-xl xl:max-w-4xl 2xl:max-w-7xl mx-auto my-20 container prose prose-lg prose-headings:text-white text-white">
       <h1>{post.title}</h1>
       {post?.mainImage ? (
         <Image

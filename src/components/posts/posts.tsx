@@ -5,7 +5,7 @@ export default function Posts({ posts = [] }: { posts: SanityDocument[] }) {
   const title = posts.length === 1 ? `1 post` : `${posts.length} posts`;
 
   return (
-    <main className="max-w-sm mx-auto">
+    <main className="max-w-sm md:max-w-lg lg:max-w-xl xl:max-w-4xl 2xl:max-w-7xl mx-auto">
       <section>
         <header className="my-10">
           <h1 className="text-2xl">{title}</h1>
