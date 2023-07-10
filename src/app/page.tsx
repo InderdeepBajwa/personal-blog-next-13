@@ -21,6 +21,33 @@ export default function Home() {
           Schedule A Virtual Coffee Chat
         </a>
       </section>
+      <section>
+        <h2>Companies I Worked With:</h2>
+        <ul>
+          <li>Paychex Inc.</li>
+          <li>Microsoft</li>
+          <li>State University of New York</li>
+        </ul>
+      </section>
+      <section>
+        <h2>Startups That I Have Advised:</h2>
+        <ul>
+          <li>Aphinity Inc.</li>
+          <li>MetaDock</li>
+          <li></li>
+        </ul>
+      </section>
+      <section>
+        <h2>Mentoring & Speaking</h2>
+        <ul>
+          <li>
+            Mentor at HackMIT 2019 as a part of the Microsoft mentorship team
+          </li>
+          <li>
+            Speaker at Microsoft Ignite 2020 for Github Spaces (pre-launch)
+          </li>
+        </ul>
+      </section>
       <section className="text-center">
         <Link href="/blog" className="underline">
           Latest Posts From Me
