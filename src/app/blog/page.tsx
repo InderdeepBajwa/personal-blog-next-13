@@ -26,11 +26,8 @@ export default function Blog() {
           <h1 className="text-2xl">Latest Posts</h1>
         </header>
         {POSTS.map((post) => (
-          <Link href="#">
-            <article
-              key={post.id}
-              className="mb-8 bg-gray-900 p-6 shadow-lg space-y-2"
-            >
+          <Link href="#" key={post.id}>
+            <article className="mb-8 bg-gray-900 p-6 shadow-lg space-y-2">
               <header>
                 <h2 className="font-bold">{post.title}</h2>
               </header>
