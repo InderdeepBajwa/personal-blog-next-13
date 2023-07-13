@@ -36,6 +36,7 @@ export default function Home() {
           <li>Aphinity Inc.</li>
           <li>MetaDock</li>
           <li>ZubAir</li>
+          <li>Bond Insurance</li>
         </ul>
       </section>
       <section>
